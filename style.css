@@ -2,19 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-.container{
-    display: flex;
-    justify-content: space-around;
+.menu-container{
+    background-color: aliceblue;
 }
-.box{
-    padding: 20px;
-    background-color: red;
-    width: 110px;
-}
-.box2{
-    background-color: green;
-
-}
-.box3{
-    background-color:blue;
+.logophoto{
+    width: 150px;
 }
