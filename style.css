@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: rgb(188, 214, 237);
+    background-color: rgb(139, 208, 119);
     padding: 15px;
     list-style: none;
     display: flex;
@@ -36,7 +36,7 @@
     align-items: center;
     height: 100vh;
     /* border: 2px solid black; */
-    background-image: url(./img/pure-white-background-85a2a7fd.jpg),linear-gradient(45deg,rgb(41, 2, 2),black);
+    background-image: url(./img/background.png),linear-gradient(45deg, rgb(207, 228, 193),rgba(151, 238, 246, 0.858))
 
 }
 
@@ -62,6 +62,84 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor:grab;
 
 
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.father-about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+
+
+}
+
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px;
+
+}
+
+.event-image1{
+    width: 80px;
+}
+.full3{
+    background-color: rgba(133, 226, 165, 0.493);
+    padding-bottom: 30px;
+  
+
+}
+
+.box{
+    
+    width: 200px;
+    height: 290px;
+    box-shadow: 4px 4px 25px ;
+    
+    text-align: center;
+    background-color: rgb(46, 185, 139);
+    padding-top: 10px;
+   
+    
+    
+}
+.event1-button{
+    margin: 10px;
+    background-color: rgb(65, 109, 119);
+    color: white;
+    border: 0px;
+    padding: 5px;
+
+}
+
+.event1-button:hover{
+    background-color: gray;
+}
+.boxh{
+    padding: 5px;
+}
+.boxp{
+    padding: 5px;
+}
+
+
+
+
+
+
+.foot{
+    background-color: rgb(111, 206, 95);
+    padding: 20px;
+    text-align: center;
+    
+}
+.service-container{
+    display:flex;
+    justify-content: space-around;
 }
