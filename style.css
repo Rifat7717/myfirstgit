@@ -4,7 +4,29 @@
 }
 .menu-container{
     background-color: aliceblue;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+
+
 }
 .logophoto{
     width: 150px;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: blue;
 }
