@@ -134,7 +134,7 @@
 
 
 .foot{
-    background-color: rgb(111, 206, 95);
+    background-color:rgb(219, 219, 215);
     padding: 20px;
     text-align: center;
     
@@ -142,4 +142,22 @@
 .service-container{
     display:flex;
     justify-content: space-around;
+}
+
+.logofooter{
+    margin: 15px;
+    width: 200px;
+    text-align: justify
+    
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    
+}
+.logo{
+    width: 100px;
 }
